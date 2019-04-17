@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 require 'json'
 require 'optparse'
 require 'ostruct'
@@ -14,7 +15,7 @@ Geokit::default_units = :meters
 @options.distance=100
 
 OptionParser.new do |opts|
-  opts.banner = 'Usage: mailqun [options]'
+  opts.banner = 'Usage: when_was_i_here [options]'
 
   opts.separator ''
   opts.separator 'Options:'
